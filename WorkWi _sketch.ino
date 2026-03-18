@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "TMPL6ClFgS-2L"
 #define BLYNK_TEMPLATE_NAME "ESP32 IOT Project Study"
-#define BLYNK_AUTH_TOKEN "JC6k0TRdHYwcTjCiOKKMBStae2eF3KmO"
+#define BLYNK_AUTH_TOKEN "our_Blynk_Auth_Token"
 #define BLYNK_PRINT Serial
 
 #include <WiFi.h>
@@ -29,6 +29,7 @@ char pass[] = "";
 NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE);
 BlynkTimer timer;
 LiquidCrystal_I2C lcdBig(0x27, 20, 4);  
+
 
 // --- Deklarasi Variabel ---
 bool systemStarted = false;
