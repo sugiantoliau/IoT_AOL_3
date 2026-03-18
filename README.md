@@ -38,7 +38,7 @@ Hardware Components (Simulated):
     ```
 
 3. Configure Blynk Credentials
-    In the Wokwi `sketch.ino` tab, locate and replace the placeholder with your unique token from the Blynk dashboard:
+    In the 'Wokwi_sketch.ino` tab, locate and replace the placeholder with your unique token from the Blynk dashboard:
 
     ```cpp
     #define BLYNK_AUTH_TOKEN "Your_Blynk_Auth_Token"
